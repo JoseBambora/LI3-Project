@@ -1,0 +1,12 @@
+char *print_pag();
+void print_traco(int n);
+void print_traco2(int n);void print_traco3(int n);
+void get_event();
+void read_file_queries(char *name, int query);
+void read_file_estatisticasqueries (char*name, int query);
+int print_invalid_lan();
+int print_invalid_data();
+void printMenu_iterativo();
+void printMenu();
+void print_str(char *str);
+void print_time_ncur(double time_used);

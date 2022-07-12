@@ -1,0 +1,16 @@
+typedef struct commit COMMIT;
+COMMIT *init_commits();
+COMMIT *realloc_commits(COMMIT *c, int *n);
+COMMIT *start_commits(int *s);
+int sort_commit(COMMIT *c, int size);
+int return_ind_id (COMMIT *c, int size, int id);
+int free_commit(COMMIT *c, int size);
+int sort_commit2(COMMIT *c, int size);
+void *commit_quadruplo(COMMIT *c,int size, int *s);
+int bot_repos(COMMIT *c, int *bot_ids,int size_commits);
+int return_colaborators (COMMIT *c,int size);
+void *commits_qtty(void *liminf, void* limsup, COMMIT *c, int size, int *size_triplo);
+void *commiter_id_repos(COMMIT *c, int size, int *repos_ids, int *size_triplo);
+int * not_updated_repos (COMMIT *c, int size, char *d_aux, int *s);
+int * updated_repos(COMMIT *c, int size, char *d_aux, int *s);
+void *triplos_parametrizavel(COMMIT *c, int size, void* aux_uc, int *size_triplo, int size_connections);

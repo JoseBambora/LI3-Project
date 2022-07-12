@@ -1,0 +1,11 @@
+typedef struct commit COMMIT;
+COMMIT *init_commits();
+int start_commits();
+void *commit_quadruplo(int *s);
+int bot_repos(int *bot_ids);
+int return_colaborators();
+void *commits_qtty(void *liminf, void* limsup, int *size_triplo);
+void *commiter_id_repos(int *repos_ids, int *size_triplo);
+int *not_updated_repos ( int size, char *d_aux, int *s);
+int *updated_repos(int size, char *d_aux, int *s);
+void *triplos_parametrizavel(void* aux_uc, int *size_triplo, int size_connections);
